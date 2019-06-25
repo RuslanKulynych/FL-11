@@ -1,8 +1,9 @@
-$body-color: #ffff;
+$white: #ffffff;
+$body-color: $white;
 $header-background: '../img/m-h-day.jpg';
 $header-font-color: #2c2f3c;
 $header-button-color: #699900;
 $header-underline: #14a0c7;
 $section-item-background: #21232e;
 $p-text: #c0c3ce;
-$banner-bg-gradient: linear-gradient(to right, #0ec000 0%,#305fcd 100%);
+$banner-bg-gradient: linear-gradient(to right, #0ec000 0%, #305fcd 100%);
