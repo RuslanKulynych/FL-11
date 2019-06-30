@@ -228,6 +228,19 @@ h1 {
   position: relative;
 }
 
+.cardBox button {
+  position: absolute;
+  background-color: rgba(9, 119, 116, 0.5);
+  border-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 70px;
+  left: 10px;
+  top: 150px;
+}
+
 .cardBox p {
   position: absolute;
   left: 15px;
