@@ -1,0 +1,153 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+:root {
+  --bg-color--dark: #0b192f;
+  --bg-color--header: #162b4d;
+  --link: #fff;
+  --link--hover: #b8b8b8;
+  --bg-footer-color: #162b4d;;
+}
+
+body {
+  font-family: roboto;
+}
+.post-1 {
+	background: #B71757;
+}
+.post-2 {
+	background: #0D7E71;
+}
+.post-3 {
+	background: #b1660e;
+}
+.post-4 {
+	background: #d12767;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+/* Your styles go here */
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: #0b192f;
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  nav {
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #162b4d;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 100
+
+  }
+
+  h1 span {
+    color: #b92765;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    padding-top: 25px;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .card-container {
+    margin: 25px 0;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.left-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-cards article {
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-around;
+}
+
+article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.left-cards article h2 {
+  font-size: 42px;
+  font-weight: lighter;
+}
+
+.left-cards article .ftext {
+  width: 520px;
+  color: #fff;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.left-cards article:nth-child(1) {
+  background-color: #b71757;
+}
+
+.left-cards article:nth-child(2) {
+  background-color: #0d7e71;
+}
+
+.left-cards article:nth-child(3) {
+  background-color: #b1660e;
+}
+
+.left-cards article:nth-child(4) {
+  background-color: #d12767;
+}
+
+.left-cards article img {
+  width: 520px;
+}
+
+.lfc-text {
+  background-color: #2d95bb;
+}
+
+
+.r-card-item {
+  margin-left: 25px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+.r-card-item article img, .r-card-item .ftext {
+  width: 330px;
+}
+
+
+
+
+footer {
+    padding: 0 4%;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    color: #637693;
+    font-size: 14px;
+    background-color: #162b4d;
+}
