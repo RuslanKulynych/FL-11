@@ -1,7 +1,7 @@
 // Your code goes here
 var a = parseInt(prompt('enter a', a));
 var b = parseInt(prompt('enter b', b));
-var c = parseInt(prompt('enter c', c))
+var c = parseInt(prompt('enter c', c));
 
 var res = "";
 
