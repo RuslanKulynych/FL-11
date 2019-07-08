@@ -12,6 +12,6 @@ var ab_dis_half = ab_dis/2;
 var ac_dis = Math.sqrt(Math.pow(c1-a1, 2)+Math.pow(c2-a2, 2));
 var bc_dis = Math.sqrt(Math.pow(c1-b1, 2)+Math.pow(c2-b2, 2));
 
-var res = (ac_dis === ab_dis_half && bc_dis === ab_dis_half);
+var res = ac_dis === ab_dis_half && bc_dis === ab_dis_half;
 
 console.log(res);
