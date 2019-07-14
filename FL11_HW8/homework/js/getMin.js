@@ -1,11 +1,11 @@
-function getMin(numbers) {
- var smallestNumber = numbers[0];
-  for (var i = 0; i < numbers.length; i++) {
-       if (numbers[i] < smallestNumber) {
-         smallestNumber = numbers[i];
-       }
-  }
-    return smallestNumber;
+function getMin() {
+	var smallestNumber = [0];
+	for (var i = 1; i < arguments.length; i++) {
+		if (arguments[i] < smallestNumber) {
+			smallestNumber = arguments[i];
+		}
+	}
+	return smallestNumber;
 }
 
 console.log(getMin([22,4,8]));

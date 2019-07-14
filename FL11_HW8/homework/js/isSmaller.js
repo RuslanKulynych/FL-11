@@ -1,5 +1,7 @@
-let isSmaller = function(a, b) {
-  return a > b;
+function isBigger(a, b) {
+    return a > b;
 };
 
-console.log(isSmaller(20, 10));
+function isSmaller(a, b) {
+    return !isBigger(a, b) && a !== b;
+}
